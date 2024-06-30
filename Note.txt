@@ -1,20 +1,21 @@
-mkdir D2	//new folder create
-cd D2	//go to the folder
-cd ..	//return to the previse folder
-cd	//return to the root of the pc
+mkdir D2			//new folder create
+cd D2				//go to the folder
+cd ..				//return to the previse folder
+cd				//return to the root of the pc
 cd /home/shafe/Desktop/D1/D2	//full path
-cd ~/Desktop/D1/D2	// /home/student == ~ (relative path)
-touch file1	//create text file, file1 is the file name
-cat>file1	//Type in the file, if file1 is not available then create the file1 and then type in the file
-ctrl+d	//to save and exit from typing
-cat file1>>file2	//append file1 content to file2
-cat file1 file2>file3	// concatenate file1 and file2 to file3
-cp file2 file3	//copy from file2 to file3 and overwrite the content
-mv file3 f3	//rename the file
-rm file2	//remove only the file
-rm *	//all files delete from the folder but did not delete the folder
-rmdir D3	//remove directory with no file or folder in it
-rmdir -p D1/D2	//remove D1/D2 if they are empty
+cd ~/Desktop/D1/D2		// /home/student == ~ (relative path)
+touch file1			//create text file, file1 is the file name
+cat>file1			//Type in the file, if file1 is not available then create the file1 and then type in the file
+
+ctrl+d				//to save and exit from typing
+cat file1>>file2		//append file1 content to file2
+cat file1 file2>file3		// concatenate file1 and file2 to file3
+cp file2 file3			//copy from file2 to file3 and overwrite the content
+mv file3 f3			//rename the file
+rm file2			//remove only the file
+rm *				//all files delete from the folder but did not delete the folder
+rmdir D3			//remove directory with no file or folder in it
+rmdir -p D1/D2			//remove D1/D2 if they are empty
 	
 cal 		//display colander 
 cal-3		//display 3 month of colander 
